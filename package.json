@@ -1,0 +1,33 @@
+{
+  "name": "coding-puzzle",
+  "version": "0.0.1",
+  "description": "A Europe VAT number validation lib",
+  "main": "lib/index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "coffee-script": "~1.6.3",
+    "mocha": "~1.14.0",
+    "expect.js": ">=0.2.0"
+  },
+  "scripts": {
+    "test": "mocha --compilers coffee:coffee-script -R spec -t 10000 --recursive test",
+    "prepublish": "coffee --output lib --compile src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/viruschidai/coding-puzzle"
+  },
+  "keywords": [
+    "fibonacci number",
+    "prime number"
+  ],
+  "author": "Bill Gao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/viruschidai/coding-puzzle/issues"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "homepage": "https://github.com/viruschidai/coding-puzzle"
+}
